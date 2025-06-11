@@ -4,7 +4,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:038462784735:task-definition/SpringBoot:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:038462784735:task-definition/SpringBootApplication:1"
         LoadBalancerInfo:
-          ContainerName: "sprinrajco"
+          ContainerName: "SpringBoot"
           ContainerPort: 8080
