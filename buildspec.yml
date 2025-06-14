@@ -6,7 +6,7 @@ phases:
       - echo Installing dependencies...
       - yum install -y jq maven
       - echo Logging in to Amazon ECR...
-      - ACCOUNT_ID=619071307284
+      - ACCOUNT_ID=038462784735
       - REGION=us-east-1
       - REPO_NAME=spring-demo-ecr
       - IMAGE_TAG=v1.$CODEBUILD_BUILD_NUMBER
